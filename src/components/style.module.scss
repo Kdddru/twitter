@@ -1,0 +1,43 @@
+
+
+
+
+
+
+
+//login
+.login{
+  background-color: black;
+  text-align: center;
+  height: 100vh;
+
+  h2{
+    padding: 30px;
+    color: white;
+  }
+  
+  
+  form{
+    width: 50%;
+    max-width: 540px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    gap: 20px;
+
+    input{
+      padding: 13px;
+      border: none;
+      border-radius: 50px;
+      font-size: 1.1rem;
+
+      &:focus{
+        outline: none;
+      }
+      &[type = submit]{
+        cursor: pointer;
+      }
+    }
+    
+  }
+}
