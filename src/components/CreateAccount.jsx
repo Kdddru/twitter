@@ -26,7 +26,7 @@ export default function CreateAccount() {
 
   return (
     <div className={style.login}>
-      <h2>Dwitter</h2>
+      <h2>Join D</h2>
       <form onSubmit={onSubmit}>
         <input placeholder='이름' onChange={onChange}  value={userName} name='name' type='text' required={true}/>
         <input placeholder='이메일' onChange={onChange} value={email}  name='email' type='email' required={true}/>
